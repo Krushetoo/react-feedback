@@ -7,8 +7,9 @@ function Header({ bgColor, textColor, text }) {
   };
   return (
     <header style={headerStyles}>
-      <div className="container"></div>
-      <h2>{text}</h2>
+      <div className="container">
+        <h2>{text}</h2>
+      </div>
     </header>
   );
 }
